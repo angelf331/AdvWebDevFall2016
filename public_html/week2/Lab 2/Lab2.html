@@ -194,6 +194,15 @@
                 docfrag.appendChild(createParagraphElement('Favorite Fruit: ', data.favoriteFruit));
                 docfrag.appendChild(createParagraphElement('Balance: ', data.balance));
                 docfrag.appendChild(createParagraphElement('About: ', data.about));
+                
+                if (data.isActive === true){
+                    dom.classList.add('active');
+                    dom.classList.remove('inactive');
+                }
+                else{
+                    dom.classList.add('inactive');
+                    dom.classList.remove('active');
+                }
                 dom.appendChild(docfrag);
               },
               error: function(data) {
