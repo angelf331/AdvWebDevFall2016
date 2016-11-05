@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Bachelors\\SE373AdvOpenWebDev\\NodeJSPortable\\App\\NodeJS\\node.exe',
+1 verbose cli   'F:\\Bachelors\\SE373AdvOpenWebDev\\NodeJSPortable\\Data\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'package.json' ]
+2 info using npm@3.3.6
+3 info using node@v4.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData package.json
+8 silly fetchOtherPackageData package.json
+9 silly cache add args [ 'package.json', null ]
+10 verbose cache add spec package.json
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'package.json',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'package.json',
+11 silly cache add   spec: 'F:\\Bachelors\\SE373AdvOpenWebDev\\AdvWebDev\\public_html\\week4\\package.json',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) e5cc908c3b8ee6075e444db2ba054c746869c90a
+13 verbose addTmpTarball F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4\package.json not in flight; adding
+14 verbose addTmpTarball validating metadata from F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4\package.json
+15 verbose tar unpack F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4\package.json
+16 verbose tar unpacking to C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd
+17 silly gentlyRm C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd is being purged
+18 verbose gentlyRm don't care about contents; nuking C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd
+19 silly gunzTarPerm modes [ '777', '666' ]
+20 error not a package F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4\package.json
+21 error addLocal Could not install F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4\package.json
+22 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd\package.json'
+22 silly fetchPackageMetaData     at Error (native)
+22 silly fetchPackageMetaData  error for package.json { [Error: ENOENT: no such file or directory, open 'C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd\package.json']
+22 silly fetchPackageMetaData   errno: -4058,
+22 silly fetchPackageMetaData   code: 'ENOENT',
+22 silly fetchPackageMetaData   syscall: 'open',
+22 silly fetchPackageMetaData   path: 'C:\\Users\\001307~1\\AppData\\Local\\Temp\\NodeJSPortableTemp\\npm-188-73f14888\\unpack-c2d6e52f711b9f70781e9e12a1a742dd\\package.json' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Starting
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd\package.json'
+28 verbose stack     at Error (native)
+29 verbose cwd F:\Bachelors\SE373AdvOpenWebDev\AdvWebDev\public_html\week4
+30 error Windows_NT 6.1.7601
+31 error argv "F:\\Bachelors\\SE373AdvOpenWebDev\\NodeJSPortable\\App\\NodeJS\\node.exe" "F:\\Bachelors\\SE373AdvOpenWebDev\\NodeJSPortable\\Data\\node_modules\\npm\\bin\\npm-cli.js" "install" "package.json"
+32 error node v4.2.1
+33 error npm  v3.3.6
+34 error path C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd\package.json
+35 error code ENOENT
+36 error errno -4058
+37 error syscall open
+38 error enoent ENOENT: no such file or directory, open 'C:\Users\001307~1\AppData\Local\Temp\NodeJSPortableTemp\npm-188-73f14888\unpack-c2d6e52f711b9f70781e9e12a1a742dd\package.json'
+38 error enoent This is most likely not a problem with npm itself
+38 error enoent and is related to npm not being able to find a file.
+39 verbose exit [ -4058, true ]
