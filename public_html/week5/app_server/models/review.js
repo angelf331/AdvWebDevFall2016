@@ -3,16 +3,9 @@ var reviewSchema = new mongoose.Schema({
     firstName: String,
     lastName: String,
     department: String,
-    startDate: {
-        type: Date,
-        required: true
-    },
+    startDate: String,
     jobTitle: String,
-    salary: {
-        type: Number,
-        required: true
-        
-    }
+    salary: String
 });
 
 

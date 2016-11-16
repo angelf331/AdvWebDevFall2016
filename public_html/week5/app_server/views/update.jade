@@ -3,7 +3,7 @@ extends layout
 block content
  h1=title
  p
-    a(href="../view") View
+    a(href="../view" class="btn btn-default btn-xs") View
  h2=message
  form(action="/update", method="post", role="form")
         .form-group
@@ -32,4 +32,4 @@ block content
             input#salary.form-control(name="salary" value="#{results.salary}")       
         input(type="hidden" name="_id" value="#{results._id}")
         br
-        input(type="submit" value="Update Employee") 
+        input(type="submit" class="btn btn-danger" value="Update Employee") 

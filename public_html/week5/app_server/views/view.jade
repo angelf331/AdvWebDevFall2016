@@ -3,9 +3,10 @@ extends layout
 block content
     h1=title
     p
-        a(href="../") Home
+        a(href="../" class="btn btn-default btn-xs") Home
+    
     p=removed
-    table(border="1")
+    table(class="table")
         thead   
             tr
                 th firstName
@@ -24,12 +25,12 @@ block content
                 td 
                     = stuff.department
                 td 
-                    = stuff.startDate.toDateString()
+                    = stuff.startDate
                 td
                     = stuff.jobTitle
                 td
                     = stuff.salary
                 td
-                    a(href="../update/#{stuff._id}") Update
+                    a(href="../update/#{stuff._id}" class="btn btn-secondary btn-sm" style="background: #6CF0AF") Update
                 td
-                    a(href="../view/#{stuff._id}") Delete
+                    a(href="../view/#{stuff._id}" class="btn btn-secondary btn-sm" style="background: #6CF0AF") Delete
